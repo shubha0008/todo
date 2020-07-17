@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.Display{
+  background-color: rgb(40, 167, 199);
+  
+}
+Container{
+  display: flex;
+  
+}
