@@ -49,12 +49,8 @@ function InputComp(){
 
     <BrowserRouter>
          <Switch>
-           {/* <Redirect exact from="/" to="/todo"/> */}
-           {/* <Route path="/todo" /> */}
-           <Route path="/DailyToDoTask"/>
-            <addTodo/>
-            <Route path="/MonthlyToDoTask"/>
-            <addTodoTask/>
+           <Redirect exact from="/" to="/todo"/> 
+           <Route path="/todo" /> 
          </Switch>
         </BrowserRouter>
     </div> 
